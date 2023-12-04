@@ -9,9 +9,23 @@ Der Teilnehmer/die Teilnehmerin kann nach erfolgreicher Absolvierung dieses Them
 
 ## Inhaltsverzeichnis
 
-1. [1. Kapitel - Beispiele in Markdown](chapter1.md)
-2. [2. Kapitel - Beispiel eines 2. Kapitels](chapter2.md)
+1. [Aufgabenstellung](./00-taskdefinition.md)
+1. [ArrayList](./01-ArrayList.md)
+1. [LinkedList](./02-LinkedList.md)
+1. [sortierte Listen](./03-sorted-lists.md)
+1. [Hashing - Was ist das?](./04-hashing.md)
+1. [HashSet](./05-HashSet.md)
+1. [HashMap](./06-HashMap.md)
+1. [Zusammenfassung und Vergleich](./07-summary-comparison.md)
 
 ## Referenzen
 
-Hier kommt eine Liste von Links zu weiterführenden Inhalten (zB spezifische Inhalte, worauf man speziell achten muss, oder Inhalte, welche sich die Teilnehmer nur optional anschauen)
+Hier findest du weitere interessante Inhalte zur Vertiefung
+
+### Entwurfsmuster / Design Patterns
+
+Weitere Informationen zu Entwurfsmustern findet ihr hier: https://refactoring.guru/design-patterns https://sourcemaking.com/design_patterns
+
+### Anwendungen von Datenstrukturen
+
+https://www.youtube.com/watch?v=ouipSd_5ivQ 

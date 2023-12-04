@@ -1,0 +1,32 @@
+# Datenstrukturen
+
+## Aufgabe: Mengenlehre
+
+Gegeben sind drei Zahlenmengen A, B, C.
+
+A = { 1, 3, 5 }
+B = { 3, 5, 7 }
+C = { 5, 7, 9 }
+
+Berechne möglichst effizient die Vereinigungsmenge von A ∪ B ∪ C sowie alle möglichen Schnittmengen und Differenzmengen der drei Zahlenmengen. Du kannst davon ausgehen, dass alle Mengen gleich groß sind.
+
+Verwende dazu die bereits vorhandene Klasse "HashSet" und deren Methoden. Du sollst die Logik, wie sich z.B. eine Vereinigungsmenge bildet NICHT selbst programmieren. Die Klasse HashSet kann das schon.
+
+Gestalte deine Methoden so, dass sie zur Berechnung der Ergebnismenge den selben return Typ haben wie die Parameter. Dadurch können die Methodenaufrufe beliebig oft geschachtelt werden.
+
+z.B.: getUnionList(a, getIntersectionList(b,c)); // das sollte funktionieren und heißt A ∪ (B ∩ C)
+
+## Aufgabe: Wörterbuch
+
+Erstelle ein Programm welches ein Wörterbuch zum Übersetzen von Wörtern zwischen Englisch und Deutsch implementiert (bi-direktional). Es soll folgende Funktionalitäten umfassen:
+
+    Hinzufügen eines neuen Wort-Paars (Englisch und Deutsch)
+    Entfernen eines Wort-Paars aus dem Wörterbuch
+    Suchen der Übersetzung eines Wortes (in beide Richtungen)
+
+Um diese Aufgabe zu lösen ist das **Map** Interface gut geeignet.
+
+## Aufgabe: Liste sortieren
+
+Wähle einen der bereits mit Arrays implementierten Sortieralgorithmus und ändere die Implementation derart, dass statt Arrays Listen verwendet werden. Wichtig: Es soll NICHT die eingebaute Sortierfunktion des Listen Interface, sondern euer eigener Algorithmus verwendet werden.
+
