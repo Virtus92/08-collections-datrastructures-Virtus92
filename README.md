@@ -1,4 +1,4 @@
-# Thema des Kapitels
+# Datenstrukturen
 
 ## Lernziele
 Der Teilnehmer/die Teilnehmerin kann nach erfolgreicher Absolvierung dieses Themas:
