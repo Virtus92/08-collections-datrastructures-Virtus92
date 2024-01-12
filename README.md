@@ -2,10 +2,11 @@
 
 ## Lernziele
 Der Teilnehmer/die Teilnehmerin kann nach erfolgreicher Absolvierung dieses Themas:
-- das Thema erklären
-- das Thema anwenden, indem ein 
-- seinen/ihren Code erklären
-- seinen Code in GitHub einchecken
+- das ArrayList, LinkedList, SortedList, HashSet und HashMap anwenden
+- die Vor- und Nachteile der jeweiligen Liste/Map darstellen
+- erklären, in welchen Fällen die verschiedenen Listen gut geeignet sind
+- seinen\*ihren Code erklären
+- Der\*Die Teilnehmer\*in hat seinen*ihren Code in GitHub eingecheckt
 
 ## Inhaltsverzeichnis
 
@@ -18,9 +19,6 @@ Der Teilnehmer/die Teilnehmerin kann nach erfolgreicher Absolvierung dieses Them
 1. [HashMap](./06-HashMap.md)
 1. [Zusammenfassung und Vergleich](./07-summary-comparison.md)
 
-## Referenzen
-
-Hier findest du weitere interessante Inhalte zur Vertiefung
 
 ### Entwurfsmuster / Design Patterns
 
