@@ -6,7 +6,7 @@ Der Teilnehmer/die Teilnehmerin kann nach erfolgreicher Absolvierung dieses Them
 - die Vor- und Nachteile der jeweiligen Liste/Map darstellen
 - erklären, in welchen Fällen die verschiedenen Listen gut geeignet sind
 - seinen\*ihren Code erklären
-- Der\*Die Teilnehmer\*in hat seinen*ihren Code in GitHub eingecheckt
+- Der\*Die Teilnehmer\*in hat seinen\*ihren Code in GitHub eingecheckt
 
 ## Inhaltsverzeichnis
 
