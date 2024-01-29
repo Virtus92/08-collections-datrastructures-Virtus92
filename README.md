@@ -10,7 +10,7 @@ Der Teilnehmer/die Teilnehmerin kann nach erfolgreicher Absolvierung dieses Them
 
 ## Inhaltsverzeichnis
 
-1. [Aufgabenstellung](./00-taskdefinition.md)
+1. [Problemstellung](00-problemstellung.md)
 1. [ArrayList](./01-ArrayList.md)
 1. [LinkedList](./02-LinkedList.md)
 1. [sortierte Listen](./03-sorted-lists.md)
@@ -18,6 +18,7 @@ Der Teilnehmer/die Teilnehmerin kann nach erfolgreicher Absolvierung dieses Them
 1. [HashSet](./05-HashSet.md)
 1. [HashMap](./06-HashMap.md)
 1. [Zusammenfassung und Vergleich](./07-summary-comparison.md)
+1. [Aufgabenstellung](./00-taskdefinition.md)
 
 
 ### Entwurfsmuster / Design Patterns
