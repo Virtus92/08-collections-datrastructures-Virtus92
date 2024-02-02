@@ -11,3 +11,5 @@ Im Rahmen unserer Programme werden wir sehen, dass oft andere Anforderungen auf 
 - manchmal ist es so, dass die Elemente automatisch sortiert sein müssen, damit eine sinnvolle Verarbeitung erfolgen kann.
 
 Für all diese Anwendungsfälle gibt es von der Programmiersprache aus eigene Objekttypen, die verwendet werden können. Die wichtigsten davon schauen wir uns in diesem Kapitel an.
+
+Zurück zur [Startseite](README.md)

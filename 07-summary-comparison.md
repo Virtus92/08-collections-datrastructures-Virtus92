@@ -13,3 +13,5 @@
 Hier ein weiterer Vergleich für die Suche eines Elementen:
 
 ![Geschwindigkeit der Suche eines Elementen je nach Objekttyp](img/speed-of-lists.png)
+
+Zurück zur [Startseite](README.md)

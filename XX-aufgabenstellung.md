@@ -30,3 +30,5 @@ Um diese Aufgabe zu lösen ist das **Map** Interface gut geeignet.
 
 Wähle einen der bereits mit Arrays implementierten Sortieralgorithmus und ändere die Implementation derart, dass statt Arrays Listen verwendet werden. Wichtig: Es soll NICHT die eingebaute Sortierfunktion des Listen Interface, sondern euer eigener Algorithmus verwendet werden.
 
+Zurück zur [Startseite](README.md)
+

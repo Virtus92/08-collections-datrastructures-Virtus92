@@ -10,3 +10,5 @@ Hashing wird zu verschiedenen Zwecken verwendet:
 - Zugriff auf Elementen in Hash-Objekttypen bzw. in Datenbanken (Indices)
 - Speicherung von Passwörtern: sinnvoll, da das gespeicherte Passwort nicht entschlüsselt werden kann
 - Bitcoin Mining: Zur Sicherstellung, dass die Blockchain nicht manipuliert wurde.
+
+Zurück zur [Startseite](README.md)
