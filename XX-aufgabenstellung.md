@@ -16,6 +16,18 @@ Gestalte deine Methoden so, dass sie zur Berechnung der Ergebnismenge den selben
 
 z.B.: getUnionList(a, getIntersectionList(b,c)); // das sollte funktionieren und heißt A ∪ (B ∩ C)
 
+### Abnahmekriterien
+
+- Die Variablennamen sind aussagekräftig
+- Die gewählten Datentypen sind sinnvoll
+- Das Programm erfüllt folgende Anforderungen: 
+  - Ausgabe der Union aller 2er Kombinationen: A ∪ B, A ∪ C, B ∪ C
+  - Ausgabe der Intersektion aller 2er Kombinationen: A ∩ B, A ∩ C, B ∩ C, B ∩ A, C ∩ A, C ∩ B
+  - Ausgabe der Union A ∪ B ∪ C
+  - Ausgabe der Beispiel A ∪ (B ∩ C)
+- Der\*die Teilnehmer\*in kann den Code erklären
+- Der Code ist in GITHub gepuscht
+
 ## Aufgabe: Wörterbuch
 
 Erstelle ein Programm welches ein Wörterbuch zum Übersetzen von Wörtern zwischen Englisch und Deutsch implementiert (bi-direktional). Es soll folgende Funktionalitäten umfassen:
@@ -26,9 +38,28 @@ Erstelle ein Programm welches ein Wörterbuch zum Übersetzen von Wörtern zwisc
 
 Um diese Aufgabe zu lösen ist das **Map** Interface gut geeignet.
 
+### Abnahmekriterien
+
+- Die Variablennamen sind aussagekräftig
+- Die gewählten Datentypen sind sinnvoll
+- Das Programm erfüllt folgende Anforderungen: 
+  - effiziente Suche von Wörtern auf Deutsch
+  - effiziente Suche von Wörtern auf Englisch
+  - bzw. alle oben angeführten Anforderungen (Hinzufügen/Löschen)
+- Der\*die Teilnehmer\*in kann den Code erklären
+- Der Code ist in GITHub gepuscht
+
 ## Aufgabe: Liste sortieren
 
 Wähle einen der bereits mit Arrays implementierten Sortieralgorithmus und ändere die Implementation derart, dass statt Arrays Listen verwendet werden. Wichtig: Es soll NICHT die eingebaute Sortierfunktion des Listen Interface, sondern euer eigener Algorithmus verwendet werden.
+
+### Abnahmekriterien
+
+- Die Variablennamen sind aussagekräftig
+- Die gewählten Datentypen sind sinnvoll
+- Das Programm erfüllt die oben genannten Anforderungen
+- Der\*die Teilnehmer\*in kann den Code erklären
+- Der Code ist in GITHub gepuscht
 
 Zurück zur [Startseite](README.md)
 
