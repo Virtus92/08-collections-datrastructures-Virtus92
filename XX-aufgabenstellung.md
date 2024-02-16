@@ -25,7 +25,7 @@ z.B.: getUnionList(a, getIntersectionList(b,c)); // das sollte funktionieren und
   - Ausgabe der Intersektion aller 2er Kombinationen: A ∩ B, A ∩ C, B ∩ C, B ∩ A, C ∩ A, C ∩ B
   - Ausgabe der Union A ∪ B ∪ C
   - Ausgabe der Beispiel A ∪ (B ∩ C)
-- Der\*die Teilnehmer\*in kann den Code erklären
+- Der:die Teilnehmer:in kann den Code erklären
 - Der Code ist in GITHub gepuscht
 
 ## Aufgabe: Wörterbuch
@@ -46,7 +46,7 @@ Um diese Aufgabe zu lösen ist das **Map** Interface gut geeignet.
   - effiziente Suche von Wörtern auf Deutsch
   - effiziente Suche von Wörtern auf Englisch
   - bzw. alle oben angeführten Anforderungen (Hinzufügen/Löschen)
-- Der\*die Teilnehmer\*in kann den Code erklären
+- Der:die Teilnehmer:in kann den Code erklären
 - Der Code ist in GITHub gepuscht
 
 ## Aufgabe: Liste sortieren
@@ -58,7 +58,7 @@ Wähle einen der bereits mit Arrays implementierten Sortieralgorithmus und ände
 - Die Variablennamen sind aussagekräftig
 - Die gewählten Datentypen sind sinnvoll
 - Das Programm erfüllt die oben genannten Anforderungen
-- Der\*die Teilnehmer\*in kann den Code erklären
+- Der:die Teilnehmer:in kann den Code erklären
 - Der Code ist in GITHub gepuscht
 
 Zurück zur [Startseite](README.md)
