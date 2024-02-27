@@ -60,7 +60,7 @@ List<Integer> list = new ArrayList<>(numbers);
 
 ### ein Element hinzufügen
 
-Mit den Methode *add(<Wert>)* bzw. *add(<Index>, <Wert>)* werden einzelne Elemente hinzugefügt.
+Mit den Methode *add(Wert)* bzw. *add(Index, Wert)* werden einzelne Elemente hinzugefügt.
 
 #### Java 
 
@@ -190,7 +190,7 @@ Hier ist anzumerken, dass die Suche *-1* ergibt, wenn das gesuchte Element nicht
 
 ### Löschen eines Elements
 
-Das Löschen eines Elements erfolgt mit den Methoden *remove(<Index>)* oder *remove(<Objekt>)*. 
+Das Löschen eines Elements erfolgt mit den Methoden *remove(Index)* oder *remove(Objekt)*. 
 
 #### Java 
 
