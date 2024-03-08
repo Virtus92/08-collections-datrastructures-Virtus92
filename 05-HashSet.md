@@ -39,10 +39,8 @@ class Manager{
 
 using System.Collections.Generic;
 
-class Manager
-{
-    public HashSet<string> CreateNewHashSet()
-    {
+class Manager {
+    public HashSet<string> CreateNewHashSet() {
         HashSet<string> hashSet = new HashSet<string>();
         return hashSet;
     }
@@ -74,10 +72,8 @@ class Manager{
 
 using System.Collections.Generic;
 
-class Manager
-{
-    public void AddElementToHashSet()
-    {
+class Manager {
+    public void AddElementToHashSet() {
         HashSet<string> hashSet = new HashSet<string>();
     
         hashSet.Add("String Added");
@@ -117,19 +113,14 @@ class Manager {
 using System;
 using System.Collections.Generic;
 
-class Program
-{
-    static void Main()
-    {
+class Program {
+    static void Main() {
         HashSet<string> hashSetContains = new HashSet<string>();
         hashSetContains.Add("String Added");
 
-        if (hashSetContains.Contains("String Added"))
-        {
+        if (hashSetContains.Contains("String Added")) {
             Console.WriteLine("Das Element wurde gefunden");
-        }
-        else
-        {
+        } else {
             Console.WriteLine("Das Element wurde nicht gefunden");
         }
     }
@@ -210,8 +201,7 @@ using System.Collections.Generic;
 
 class Program
 {
-    static void Main()
-    {
+    static void Main() {
         HashSet<string> clearHashSet = new HashSet<string>();
         clearHashSet.Add("String Added");
         clearHashSet.Add("String2 Added");
@@ -248,8 +238,7 @@ using System.Collections.Generic;
 
 class Program
 {
-    static void Main()
-    {
+    static void Main() {
         HashSet<string> hashSet = new HashSet<string>();
         hashSet.Add("String Added");
 
@@ -299,8 +288,7 @@ using System.Collections.Generic;
 
 class Program
 {
-    static void Main()
-    {
+    static void Main() {
         HashSet<string> hashSet = new HashSet<string>();
         hashSet.Add("String Added");
 
