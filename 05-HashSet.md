@@ -9,11 +9,9 @@ Die Eigenschaften eines HashSet sind also:
 - Das Hinzufügen eines Elements ist ebenfalls konstant schnell.
 - Gespeichert werden Elemente in `Buckets`. Jedes Bucket entspricht einem HashCode. Da mehrere Elemente potenziell denselben HashCode erhalten können, können mehrere Elemente in ein Bucket gespeichert werden.
 
-## Java
+Der Objekttyp `HashSet` befindet sich im Package `java.util` (Java) bzw. `System.Collections.Generic` (C#). 
 
-In Java ist der Objekttyp `HashSet` im Package `java.util` zu finden.
-
-Die API von `java.util.HashSet` bietet u.a. folgende Methoden:
+Die API von `HashSet` bietet u.a. folgende Methoden:
 - [add()](#add)
 - [contains()](#contains)
 - [remove()](#remove)
@@ -32,6 +30,21 @@ class Manager{
     public Set<String> createNewHashSet() {
         Set<String> hashset = new HashSet<>();
         return hashset;
+    }
+}
+```
+
+```csharp
+// C#
+
+using System.Collections.Generic;
+
+class Manager
+{
+    public HashSet<string> CreateNewHashSet()
+    {
+        HashSet<string> hashSet = new HashSet<string>();
+        return hashSet;
     }
 }
 ```
@@ -56,6 +69,22 @@ class Manager{
 }
 ```
 
+```csharp
+// C#
+
+using System.Collections.Generic;
+
+class Manager
+{
+    public void AddElementToHashSet()
+    {
+        HashSet<string> hashSet = new HashSet<string>();
+    
+        hashSet.Add("String Added");
+    }
+}
+```
+
 ### contains()
 
 Die Methode `contains()` prüft, ob ein Element im HashSet vorhanden ist und gibt `true` aus, wenn ja, ansonsten `false`. 
@@ -65,14 +94,47 @@ Die Methode `contains()` prüft, ob ein Element im HashSet vorhanden ist und gib
 ```Java
 // Java
 
-Set<String> hashsetContains = new HashSet<>();
-hashsetContains.add("String Added");
- 
-if (hashsetContains.contains("String Added")){
-    System.out.println("Das Element wurde gefunden");
-} else {
-    System.out.println("Das Element wurde nicht gefunden");
+import java.util.HashSet;
+import java.util.Set;
+
+class Manager {
+    public static void main(String[] args) {
+        Set<String> hashSetContains = new HashSet<>();
+        hashSetContains.add("String Added");
+
+        if (hashSetContains.contains("String Added")) {
+            System.out.println("Das Element wurde gefunden");
+        } else {
+            System.out.println("Das Element wurde nicht gefunden");
+        }
+    }
 }
+```
+
+```csharp
+// C#
+
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        HashSet<string> hashSetContains = new HashSet<string>();
+        hashSetContains.Add("String Added");
+
+        if (hashSetContains.Contains("String Added"))
+        {
+            Console.WriteLine("Das Element wurde gefunden");
+        }
+        else
+        {
+            Console.WriteLine("Das Element wurde nicht gefunden");
+        }
+    }
+}
+
 ```
 
 ### remove()
@@ -82,13 +144,41 @@ Die Methode `remove()` löscht das entsprechende Element aus dem HashSet und gib
 ```Java
 // Java
 
-Set<String> hashsetContains = new HashSet<>();
-hashsetContains.add("String Added");
- 
-if (hashsetContains.remove("String Added")){
-    System.out.println("Das Element wurde gefunden");
-} else {
-    System.out.println("Das Element wurde nicht gefunden");
+import java.util.HashSet;
+import java.util.Set;
+
+class Program {
+    public static void main(String[] args) {
+        Set<String> hashSetContains = new HashSet<>();
+        hashSetContains.add("String Added");
+
+        if (hashSetContains.remove("String Added")) {
+            System.out.println("Das Element wurde gefunden");
+        } else {
+            System.out.println("Das Element wurde nicht gefunden");
+        }
+    }
+}
+
+```
+
+```csharp
+// C#
+
+using System;
+using System.Collections.Generic;
+
+class Program {
+    static void Main() {
+        HashSet<string> hashSetContains = new HashSet<string>();
+        hashSetContains.Add("String Added");
+
+        if (hashSetContains.Remove("String Added")) {
+            Console.WriteLine("Das Element wurde gefunden");
+        } else {
+            Console.WriteLine("Das Element wurde nicht gefunden");
+        }
+    }
 }
 ```
 
@@ -99,9 +189,35 @@ if (hashsetContains.remove("String Added")){
 ```Java
 // Java
 
-    Set<String> clearHashSet = new HashSet<>();
-    clearHashSet.add("String Added");
-    clearHashSet.clear();
+import java.util.HashSet;
+import java.util.Set;
+
+class Main {
+    public static void main(String[] args) {
+        Set<String> clearHashSet = new HashSet<>();
+        clearHashSet.add("String Added");
+        clearHashSet.add("String2 Added");
+        clearHashSet.clear(); // Alle Elemente werden aus clearHashSet gelöscht
+    }
+}
+
+```
+```csharp
+// C#
+
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        HashSet<string> clearHashSet = new HashSet<string>();
+        clearHashSet.Add("String Added");
+        clearHashSet.Add("String2 Added");
+        clearHashSet.Clear(); // Alle Elemente werden aus clearHashSet gelöscht
+    }
+}
 ```
 
 ### size()
@@ -111,10 +227,40 @@ if (hashsetContains.remove("String Added")){
 ```Java
 // Java
 
-    Set<String> hashSet = new HashSet<>();
-    hashSet.add("String Added");
-    hashSet.size(); // gibt hier 1 aus
+import java.util.HashSet;
+import java.util.Set;
+
+class Main {
+    public static void main(String[] args) {
+        Set<String> hashSet = new HashSet<>();
+        hashSet.add("String Added");
+        int size = hashSet.size(); // gibt hier 1 aus
+        System.out.println(size); // gibt hier 1 aus
+    }
+}
 ```
+
+```csharp
+// C#
+
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        HashSet<string> hashSet = new HashSet<string>();
+        hashSet.Add("String Added");
+
+        // Gibt die Anzahl der Elemente im HashSet aus
+        int count = hashSet.Count;
+        Console.WriteLine(count); // Ausgabe: 1
+    }
+}
+
+```
+
 
 ### isEmpty()
 
@@ -123,19 +269,57 @@ if (hashsetContains.remove("String Added")){
 ```Java
 // Java
 
-    Set<String> hashSet = new HashSet<>();
-    hashSet.add("String Added");
-    boolean hashSetIsEmpty = hashSet.isEmpty(); // gibt hier false aus
-    hashSet.clear();
-    hashSetIsEmpty = hashSet.isEmpty(); // gibt hier true aus
+import java.util.HashSet;
+import java.util.Set;
+
+class Manager {
+    public static void main(String[] args) {
+        Set<String> hashSet = new HashSet<>();
+        hashSet.add("String Added");
+
+        // Überprüfen, ob das HashSet leer ist
+        boolean hashSetIsEmpty = hashSet.isEmpty();
+        System.out.println(hashSetIsEmpty); // Ausgabe: false
+
+        // Alle Elemente aus dem HashSet entfernen
+        hashSet.clear();
+
+        // Überprüfen, ob das HashSet nach dem Löschen leer ist
+        hashSetIsEmpty = hashSet.isEmpty();
+        System.out.println(hashSetIsEmpty); // Ausgabe: true
+    }
+}
 ```
 
-## C#
+```csharp
+// C#
 
-[...]
+using System;
+using System.Collections.Generic;
 
+class Program
+{
+    static void Main()
+    {
+        HashSet<string> hashSet = new HashSet<string>();
+        hashSet.Add("String Added");
+
+        // Überprüfen, ob das HashSet leer ist
+        bool hashSetIsEmpty = hashSet.Count == 0;
+        Console.WriteLine(hashSetIsEmpty); // Ausgabe: False
+
+        // Alle Elemente aus dem HashSet entfernen
+        hashSet.Clear();
+
+        // Überprüfen, ob das HashSet nach dem Löschen leer ist
+        hashSetIsEmpty = hashSet.Count == 0;
+        Console.WriteLine(hashSetIsEmpty); // Ausgabe: True
+    }
+}
+```
 ## Referenzen
 
-[HashSet - Baeldung](https://www.baeldung.com/java-hashset)
+[HashSet (Java) - Baeldung](https://www.baeldung.com/java-hashset)
+[Microsoft Learn (C#) - HashSet Klasse](https://learn.microsoft.com/de-de/dotnet/api/system.collections.generic.hashset-1?view=net-8.0)
 
 Zurück zur [Startseite](README.md)
