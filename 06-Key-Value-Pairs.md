@@ -89,7 +89,7 @@ myDictionary.Get(1);
 
 ## Key vorhanden?
 
-Die Methode `containsKey(key)`/`ContainsKey(key)` prüft, ob der angegebene Schlüssel in der HashMap vorhanden ist gibt `true` aus, wenn der Schlüssel vorhanden ist, ansonsten `false`.
+Die Methode `containsKey(key)`/`ContainsKey(key)` prüft, ob der angegebene Schlüssel in der HashMap/im Dictionary vorhanden ist gibt `true` aus, wenn der Schlüssel vorhanden ist, ansonsten `false`.
 
 ```Java
 // Java
@@ -104,7 +104,7 @@ myDictionary.ContainsKey(1);
 
 ## Wert vorhanden?
 
-Die Methode `containsValue(value)`/`ContainsValue(value)` prüft, ob der angegebene Wert `value` in der HashMap/im Divctionary vorhanden ist gibt `true` aus, wenn der Schlüssel vorhanden ist, ansonsten `false`.
+Die Methode `containsValue(value)`/`ContainsValue(value)` prüft, ob der angegebene Wert `value` in der HashMap/im Dictionary vorhanden ist gibt `true` aus, wenn der Schlüssel vorhanden ist, ansonsten `false`.
 
 ```Java
 // Java
@@ -119,7 +119,7 @@ myDictionary.ContainsValue('Wert');
 
 ## Element löschen
 
-Die Methode `remove(key)`/`Remove(key)` nimmt 1 Parameter `key`: den Schlüssel, des zu löschenden Elements. Die Methode gibt den Wert der gelöscht wurde aus. Wurde der Schlüssel nicht gefunden, wird `null` ausgegeben.
+Die Methode `remove(key)`/`Remove(key)` nimmt 1 Parameter `key`: den Schlüssel, des zu löschenden Elements. Die Methode gibt den Wert aus, der gelöscht wurde. Wurde der Schlüssel nicht gefunden, wird `null` ausgegeben.
 
 ```Java
 // Java
