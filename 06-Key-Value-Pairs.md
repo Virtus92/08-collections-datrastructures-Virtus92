@@ -1,4 +1,4 @@
-# Key-Value-Pair
+# Key-Value-Pairs
 
 Bei Key-Value-Paaren unterscheiden sich die Bezeichnungen je nach Programmiersprache:
 - in Java verwendet man z.B. eine `HashMap`. Sie implementiert das Interface `java.util.Map`, in dem der Zugriff auf Elemente über den Key erfolgt. `HashMap` ist im Package `java.util` zu finden.
