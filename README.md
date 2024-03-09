@@ -16,7 +16,7 @@ Der Teilnehmer/die Teilnehmerin kann nach erfolgreicher Absolvierung dieses Them
 1. [sortierte Listen](./03-sorted-lists.md)
 1. [Hashing - Was ist das?](./04-hashing.md)
 1. [HashSet](./05-HashSet.md)
-1. [HashMap](./06-HashMap.md)
+1. [Schlüssel-Wert-Paare](06-Key-Value-Pairs.md)
 1. [Zusammenfassung und Vergleich](./07-summary-comparison.md)
 1. [Aufgabenstellung](./00-taskdefinition.md)
 
