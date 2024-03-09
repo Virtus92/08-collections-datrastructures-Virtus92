@@ -74,7 +74,7 @@ In C# gibt es keine solche Methode, diese ist aber leicht durch eine Schleife zu
 
 ## Element auslesen
 
-Die Methode `get(key)`/`Get(key)` nimmt 1 Parameter `key`: den Schlüssel des Elements in der HashMap und gibt den dazugehörigen Wert aus.
+Die Methode `get(key)`/`Get(key)` nimmt 1 Parameter `key`: den Schlüssel des Elements in der HashMap/im Dictionary und gibt den dazugehörigen Wert aus.
 
 ```Java
 // Java
