@@ -2,10 +2,10 @@
 
 ## Lernziele
 Der Teilnehmer/die Teilnehmerin kann nach erfolgreicher Absolvierung dieses Themas:
-- das ArrayList, LinkedList, SortedList, HashSet und HashMap anwenden
-- die Vor- und Nachteile der jeweiligen Liste/Map darstellen
-- erklären, in welchen Fällen die verschiedenen Listen gut geeignet sind
-- seinen:ihren Code erklären
+- Das ArrayList, LinkedList, SortedList, HashSet und HashMap anwenden
+- Die Vor- und Nachteile der jeweiligen Liste/Map darstellen
+- Erklären, in welchen Fällen die verschiedenen Listen gut geeignet sind
+- Seinen:ihren Code erklären
 - Der:Die Teilnehmer:in hat seinen:ihren Code in GitHub eingecheckt
 
 ## Inhaltsverzeichnis
