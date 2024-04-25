@@ -1,6 +1,6 @@
 # Listen
 
-Ein ArrayList ist ein Objekt, das auf das Interface List aufbaut, ist also eine Sequenz mit einer definierten Reihenfolge, die mehrere Elemente mit demselben Wert beinhalten kann. Im Hintergrund ist die Datenstruktur in einem Array gespeichert.
+Eine ArrayList ist ein Objekt, das auf dem Interface List aufbaut, es handelt sich also um eine Sequenz mit einer definierten Reihenfolge, die mehrere Elemente mit demselben Wert beinhalten kann. Im Hintergrund ist die Datenstruktur in einem Array gespeichert.
 
 ## Warum eine Liste, wenn es doch ein Array gibt?
 
@@ -8,7 +8,7 @@ Der Sinn von einer Liste ist der, dass im Gegensatz zu normalen Arrays, die Grö
 
 Die Funktionsweise einer Liste ist ähnlich wie bei einem Array. Der Zugriff auf Elemente erfolgt über die entsprechende ID. 
 
-Wichtig ist anzumerken, dass in Java `ArrayList` bzw. in C# `List` eine generische Klasse ist. So kann bei der Deklaration der Variable definiert werden, welche Art von Daten darin gespeichert wird. 
+Wichtig ist anzumerken, dass in Java `ArrayList` bzw. in C# `List` eine generische Klasse ist. So kann bei der Deklaration der Variable definiert werden, welche Art von Daten darin gespeichert werden. 
 
 ## Instanzieren von Listen
 
