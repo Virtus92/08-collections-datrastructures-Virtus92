@@ -310,4 +310,4 @@ class Program
 [HashSet (Java) - Baeldung](https://www.baeldung.com/java-hashset)
 [Microsoft Learn (C#) - HashSet Klasse](https://learn.microsoft.com/de-de/dotnet/api/system.collections.generic.hashset-1?view=net-8.0)
 
-Zurück zur [Startseite](README.md)
+Zurück zur [Startseite](../README.md)

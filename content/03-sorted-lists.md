@@ -75,4 +75,4 @@ Key 'D' wurde nicht gefunden.
 
 Nähere Informationen sind hier zu finden: [Microsoft Learn - SortedList Class](https://learn.microsoft.com/de-de/dotnet/api/system.collections.sortedlist?view=net-9.0)
 
-Zurück zur [Startseite](README.md)
+Zurück zur [Startseite](../README.md)

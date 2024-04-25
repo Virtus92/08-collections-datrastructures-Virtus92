@@ -12,4 +12,4 @@ Im Rahmen unserer Programme werden wir sehen, dass oft andere Anforderungen auf 
 
 Für all diese Anwendungsfälle gibt es von der Programmiersprache aus eigene Objekttypen, die verwendet werden können. Die wichtigsten davon schauen wir uns in diesem Kapitel an.
 
-Zurück zur [Startseite](README.md)
+Zurück zur [Startseite](../README.md)

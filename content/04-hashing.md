@@ -12,17 +12,17 @@ Hier der Vergleich nochmals bildlich dargestellt:
 
 **Suche in Arrays und Listen**:
 
-![Suche in einem ArrayList](img/Suche%20in%20ArrayList.png)
+![Suche in einem ArrayList](../img/Suche%20in%20ArrayList.png)
 
 **Suche in einem Hash-Objekt**:
 
-![Suche in einem Hash-Objekt](img/Suche%20in%20Hash-Objekt.png)
+![Suche in einem Hash-Objekt](../img/Suche%20in%20Hash-Objekt.png)
 
 **Vergleich der Suche in mehreren Objekttypen**:
 
 In den meisten Fällen beinhaltet ein Bucket nur 1 Wert, so würde die Grafik stimmen.
 
-![Vergleich der Objekttypen](img/Vergleich%20der%20Objekttypen.png)
+![Vergleich der Objekttypen](../img/Vergleich%20der%20Objekttypen.png)
 
 ## Anwendungsfälle
 
@@ -42,8 +42,8 @@ Die Klasse `Object` liefert zwar eine Implementierung, allerdings bezieht sich d
 
 Schauen wir uns zuerst an, welche Anforderungen an die Methode hashcode() gestellt werden. Diese sind im haschcode-Contract beschrieben:
 
-![HascCode-Contract](img/hascode-contract.png)
+![HascCode-Contract](../img/hascode-contract.png)
 
 Abgesehen davon, damit die Nutzung eines Hash-Objekttyps einen Sinn macht, muss die Implementierung der `hashcode()`-Methode schnell und einfach sein. Ansonsten würde eine langsame Implementierung den Zugriff bzw. das Hinzufügen eines Elements verlangsamen und den Vorteil eines Hash-Objekttyps zunichte machen.
 
-Zurück zur [Startseite](README.md)
+Zurück zur [Startseite](../README.md)

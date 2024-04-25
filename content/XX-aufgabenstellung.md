@@ -62,5 +62,5 @@ Wähle einen der bereits mit Arrays implementierten Sortieralgorithmus und ände
 - Der:die Teilnehmer:in kann den Code erklären
 - Der Code ist in GITHub gepuscht
 
-Zurück zur [Startseite](README.md)
+Zurück zur [Startseite](../README.md)
 

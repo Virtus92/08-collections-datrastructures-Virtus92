@@ -342,4 +342,4 @@ List<object> linkedListCopy = list.ToList(); // erstellt eine Kopie der Liste li
 
 Zusammenfassend ist anzumerken, dass ArrayList die Standard Listenimplementierung ist. Allerdings kann die LinkedList in bestimmten Fällen einen Vorteil bringen, insbesondere wenn die Dauer fürs Hinzufügen/Löschen von Elementen wichtiger als die Dauer für den Zugriff auf Elemente bzw. der Speicherbedarf ist.
 
-Zurück zur [Startseite](README.md)
+Zurück zur [Startseite](../README.md)

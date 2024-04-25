@@ -152,4 +152,4 @@ myDictionary.Clear();
 
 - [HashMap: Baeldung](https://www.geeksforgeeks.org/java-util-hashmap-in-java-with-examples/?ref=lbp)
 
-Zurück zur [Startseite](README.md)
+Zurück zur [Startseite](../README.md)
