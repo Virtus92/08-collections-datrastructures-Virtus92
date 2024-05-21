@@ -52,7 +52,7 @@ Um diese Aufgabe zu lösen ist das **Map** Interface gut geeignet.
 
 ## Aufgabe: Liste sortieren
 
-Wähle einen der bereits mit Arrays implementierten Sortieralgorithmus und ändere die Implementation derart, dass statt Arrays Listen verwendet werden. Wichtig: Es soll NICHT die eingebaute Sortierfunktion des Listen Interface, sondern euer eigener Algorithmus verwendet werden.
+Wähle einen der bereits mit Arrays implementierten Sortieralgorithmus und ändere die Implementation derart, dass statt Arrays Listen verwendet werden. Wichtig: Es soll NICHT die eingebaute Sortierfunktion des Listeninterface, sondern euer eigener Algorithmus verwendet werden.
 
 ### Abnahmekriterien
 
