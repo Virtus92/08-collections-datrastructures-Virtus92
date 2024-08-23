@@ -22,8 +22,9 @@ z.B.: getUnionList(a, getIntersectionList(b,c)); // das sollte funktionieren und
 - Die Variablennamen sind aussagekräftig
 - Die gewählten Datentypen sind sinnvoll
 - Das Programm erfüllt folgende Anforderungen: 
-  - Ausgabe der Union aller 2er Kombinationen: A ∪ B, A ∪ C, B ∪ C
-  - Ausgabe der Intersektion aller 2er Kombinationen: A ∩ B, A ∩ C, B ∩ C, B ∩ A, C ∩ A, C ∩ B
+  - Ausgabe der Union/Vereinigungsmenge aller 2er Kombinationen: A ∪ B, A ∪ C, B ∪ C
+  - Ausgabe der Intersektion/Schnittmenge aller 2er Kombinationen: A ∩ B, A ∩ C, B ∩ C
+  - Ausgabe der Differenzmenge aller 2er Kombinationen: A \ B, A \ C, B \ C, B \ C, C \ A, B \ A
   - Ausgabe der Union A ∪ B ∪ C
   - Ausgabe der Beispiel A ∪ (B ∩ C)
 - Der:die Teilnehmer:in kann den Code erklären
