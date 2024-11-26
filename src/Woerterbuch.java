@@ -2,25 +2,28 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class Woerterbuch {
+
+    static HashMap<String, String> gerMap = new HashMap<>();
+    static HashMap<String, String> engMap = new HashMap<>();
+    static Scanner sc = new Scanner(System.in);
+
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        HashMap<String, String> gerMap = new HashMap<>();
-        HashMap<String, String> engMap = new HashMap<>();
         int choice = 4;
         while (choice != 0) {
-            choice = getChoice(choice, sc);
+            choice = getChoice(choice);
 
             if (choice == 1) {
-                choice = addTranslation(sc, gerMap, engMap, choice);
+                choice = addTranslation(choice);
             } else if (choice == 2) {
-                choice = removeTranslation(gerMap, sc, choice);
+                choice = removeTranslation(choice);
             } else if (choice == 3) {
-                choice = translate(sc, choice, gerMap, engMap);
+                choice = translate(choice);
             }
         }
     }
 
-    private static int getChoice(int choice, Scanner sc) {
+    private static int getChoice(int choice) {
         while (choice < 0 || choice > 3) {
             System.out.println("Möchtest du:");
             System.out.println("0. Beenden");
@@ -32,7 +35,7 @@ public class Woerterbuch {
         return choice;
     }
 
-    private static int translate(Scanner sc, int choice, HashMap<String, String> gerMap, HashMap<String, String> engMap) {
+    private static int translate(int choice) {
         boolean back;
         do {
         System.out.println("Möchtest du:");
@@ -72,7 +75,7 @@ public class Woerterbuch {
         return choice;
     }
 
-    private static int removeTranslation(HashMap<String, String> gerMap, Scanner sc, int choice) {
+    private static int removeTranslation(int choice) {
         boolean back;
         do {
             boolean toDeleteTrue = false;
@@ -98,7 +101,7 @@ public class Woerterbuch {
         return choice;
     }
 
-    private static int addTranslation(Scanner sc, HashMap<String, String> gerMap, HashMap<String, String> engMap, int choice) {
+    private static int addTranslation(int choice) {
         boolean back;
         do {
             System.out.println("Gib zuerst das Deutsche Wort ein.");
